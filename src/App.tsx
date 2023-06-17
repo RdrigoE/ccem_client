@@ -6,7 +6,7 @@ import NavBar from './components/NavBar'
 
 function App() {
     return (
-        <Container className='mb-4'>
+        <Container maxWidth='md'>
             <NavBar/>
             <Routes>
                 <Route path="/" element={<Home />} />
